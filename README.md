@@ -13,5 +13,7 @@ I modified the duckdns.sh to work with my raspberrypi by using ```#!/bin/ash``` 
 * Set **DOMAIN** and **TOKEN** and add **MANUAL_IP** and/or **INTERVAL** if necessary in the .env file
 
 ```sh 
+sudo docker build -t duck-dns-updater .
+
 sudo docker run -d --name duck-dns-updater --env-file .env duck-dns-updater --name duck-dns-updater
 ```
