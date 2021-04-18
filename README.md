@@ -1,5 +1,6 @@
 # Docker Duck DNS updater
-This image will periodically update your [duckdns.org](https://www.duckdns.org/) DDNS
+This image will periodically update your [duckdns.org](https://www.duckdns.org/) DDNS.
+
 I modified the duckdns.sh to work with my raspberrypi by using ```#!/bin/ash``` instead of ```#!/bin/sh```.
 
 ## Environment Variables
