@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/ash
 INTERVAL=${INTERVAL:-1800}
 
 if [ -z "$DOMAIN" ]; then
