@@ -11,5 +11,5 @@ This image will periodically update your [duckdns.org](https://www.duckdns.org/)
 * Set **DOMAIN** and **TOKEN** and add **MANUAL_IP** and/or **INTERVAL** if necessary
 
 ```sh 
-sudo docker run -d --env-file .env duck-dns-updater
+sudo docker run -d --name duck-dns-updater --env-file .env duck-dns-updater --name duck-dns-updater
 ```
